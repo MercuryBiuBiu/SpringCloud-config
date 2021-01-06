@@ -1,13 +1,6 @@
 server:
   port: 8201
 spring:
-  profiles:
-    active:
-      - dev
----
-server:
-  port: 8201
-spring:
   profiles: dev #开发环境
   application:
     name: Study-config-client
